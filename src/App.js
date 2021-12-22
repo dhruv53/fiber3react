@@ -6,7 +6,9 @@ import Cube from "./Cube";
 
 function App() {
   return (
-    <Canvas style={{ width: "100%", height: "100vh" }}>
+    <Canvas
+      style={{ width: "100%", height: "100vh", backgroundColor: "black" }}
+    >
       <OrbitControls />
       <directionalLight intensity={0.5} />
       <ambientLight intensity={0.2} />
