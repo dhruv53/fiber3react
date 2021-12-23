@@ -211,7 +211,7 @@ export default function Model({ ...props }) {
       <mesh
         geometry={nodes.logo001.geometry}
         material={materials.logo}
-        position={[-0.6, 0.36, 3.22]}
+        position={[-0.6, 0.36, 3.2]}
         rotation={[Math.PI / 2, 0, 0]}
         scale={0.55}
       />
