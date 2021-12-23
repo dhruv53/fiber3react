@@ -1,8 +1,8 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import Brain from "./BrainCompV1";
+import Brain from "./BrainBothFeetColorComp";
 import { BakeShadows, Stage } from "@react-three/drei";
-function Test4() {
+function Test6() {
   return (
     <Suspense fallback={<h3>Loading...</h3>}>
       <Canvas
@@ -35,4 +35,4 @@ function Test4() {
   );
 }
 
-export default Test4;
+export default Test6;
