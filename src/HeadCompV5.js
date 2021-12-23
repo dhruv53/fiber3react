@@ -7,9 +7,9 @@ export default function Model({ ...props }) {
   const { nodes, materials } = useGLTF("/HeadCompV5.glb");
 
   useFrame(() => {
-    group.current.rotation.y += 0.005;
-    group.current.position.z = -1; //
-    group.current.position.y = -1;
+    // group.current.rotation.y += 0.005;
+    group.current.position.z = 1;
+    group.current.position.y = -1.5;
     group.current.position.x = 0;
     group.current.rotation.x = 0.1;
   });
