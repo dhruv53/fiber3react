@@ -1,22 +1,16 @@
-import "./App.css";
-import React, { Suspense } from "react";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Stars } from "@react-three/drei";
-import Cube from "./Cube";
+import React from "react";
+// import Test1 from "./Test1";
+// import Test2 from "./Test2";
+import Test3 from "./Test3";
 
 function App() {
   return (
-    <Canvas
-      style={{ width: "100%", height: "100vh", backgroundColor: "black" }}
-    >
-      <OrbitControls />
-      <directionalLight intensity={0.5} />
-      <ambientLight intensity={0.2} />
-      <Suspense fallback={null}>
-        <Cube />
-        <Stars />
-      </Suspense>
-    </Canvas>
+    <>
+      {/* <Test1 />
+      <Test2 /> */}
+
+      <Test3 />
+    </>
   );
 }
 
