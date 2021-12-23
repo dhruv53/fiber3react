@@ -8,10 +8,8 @@ function App() {
     <>
       {/* <Test1 />
       <Test2 /> */}
-      <div style={{ width: "99%" }}>
-        <Brain />
-        <Test3 />
-      </div>
+      <Brain />
+      <Test3 />
     </>
   );
 }
