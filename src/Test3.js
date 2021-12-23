@@ -12,6 +12,8 @@ function Test3() {
           height: "100vh",
           backgroundSize: "cover",
         }}
+        gl={{ antialias: true }}
+        camera={{ position: [0, 0, 500], fov: 35 }}
       >
         <directionalLight intensity={5} />
         <ambientLight intensity={0.6} />
