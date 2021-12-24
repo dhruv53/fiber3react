@@ -19,7 +19,7 @@ export default function Model({ ...props }) {
 
   useEffect(() => {
     actions.BrainAction.play();
-  }, []);
+  });
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Brain" rotation={[Math.PI / 2, 0, 0]} scale={1.66}>
