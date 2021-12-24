@@ -8,6 +8,7 @@ import Test6 from "./Test6";
 import Bon from "./assets/bon.mp3";
 import Test7 from "./Test7";
 import ReactAudioPlayer from "react-audio-player";
+import "./style.css";
 function App() {
   return (
     <>
@@ -15,14 +16,9 @@ function App() {
       {/* <Test1 />
       <Test2 /> */}
       {/* <Brain /> */}
-      <div style={{ display: "flex", flexDirection: "row" }}>
-        <div style={{ width: "50%" }}>
-          <Test7 />
-        </div>
-        <div style={{ width: "50%" }}>
-          <Test6 />
-        </div>
-      </div>
+      <Test7 />
+      <Test6 />
+
       {/* <Test5 />
       <Test3 /> */}
     </>
