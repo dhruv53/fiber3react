@@ -9,7 +9,7 @@ function Test8Scroll() {
 
     const frameCount = 60;
     const currentFrame = (index) =>
-      `./assets/sequence4/${index.toString().padStart(4, "0")}.jpg`;
+      `./assets/sequence5/${index.toString().padStart(4, "0")}.jpg`;
 
     const preloadImages = () => {
       for (let i = 1; i < frameCount; i++) {
