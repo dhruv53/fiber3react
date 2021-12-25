@@ -5,15 +5,11 @@ function Test8Scroll() {
   const call = () => {
     const html = document.documentElement;
     const canvas = document.getElementById("hero-lightpass");
-    const canvasText = document.getElementById("text");
-
     const context = canvas.getContext("2d");
-    const txtContext = canvasText.getContext("2d");
 
     const frameCount = 120;
-
     const currentFrame = (index) =>
-      `./assets/sequence2/${index.toString().padStart(4, "0")}.png`;
+      `./assets/sequence/${index.toString().padStart(4, "0")}.jpg`;
 
     const preloadImages = () => {
       for (let i = 1; i < frameCount; i++) {
@@ -24,9 +20,8 @@ function Test8Scroll() {
 
     const img = new Image();
     img.src = currentFrame(1);
-    canvas.width = 1080;
+    canvas.width = 1920;
     canvas.height = 1080;
-
     img.onload = function () {
       context.drawImage(img, 0, 0);
     };
@@ -37,7 +32,6 @@ function Test8Scroll() {
     };
 
     window.addEventListener("scroll", () => {
-      console.log("Scrolled!");
       const scrollTop = html.scrollTop;
       const maxScrollTop = html.scrollHeight - window.innerHeight;
       const scrollFraction = scrollTop / maxScrollTop;
