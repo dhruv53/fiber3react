@@ -1,5 +1,11 @@
-@media only screen and (max-width: 600px) {
-  .one {
-    width: 100%;
-  }
+html {
+  height: 100vh;
+}
+body {
+  height: 500vh;
+}
+canvas {
+  position: fixed;
+  /* top: 25%; */
+  width: 100%;
 }
