@@ -5,10 +5,10 @@ function Test8Scroll() {
   const call = () => {
     const html = document.documentElement;
     const canvas = document.getElementById("hero-lightpass");
-    const canvasText = document.getElementById("text");
+    // const canvasText = document.getElementById("text");
 
     const context = canvas.getContext("2d");
-    const txtContext = canvasText.getContext("2d");
+    // const txtContext = canvasText.getContext("2d");
 
     const frameCount = 120;
 
