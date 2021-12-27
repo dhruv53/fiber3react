@@ -5,6 +5,12 @@
 /.pnp
 .pnp.js
 
+/public/assets/sequence
+/public/assets/sequence2
+/public/assets/sequence3
+/public/assets/sequence4
+/public/assets/sequence5
+
 # testing
 /coverage
 
