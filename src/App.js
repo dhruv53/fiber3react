@@ -8,7 +8,8 @@ import React from "react";
 // import Bon from "./assets/bon.mp3";
 // import Test7 from "./Test7";
 // import ReactAudioPlayer from "react-audio-player";
-import Test8Scroll from "./Test8Scroll";
+import Test9 from "./Test9";
+// import Test8Scroll from "./Test8Scroll";
 import "./style.css";
 function App() {
   return (
@@ -19,9 +20,10 @@ function App() {
       {/* <Brain /> */}
       {/* <Test7 />
       <Test6 /> */}
-      <Test8Scroll />
+      {/* <Test8Scroll /> */}
       {/* <Test5 />
       <Test3 /> */}
+      <Test9 />
     </>
   );
 }
