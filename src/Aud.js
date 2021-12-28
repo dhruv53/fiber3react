@@ -3,11 +3,10 @@ import Muse from "./assets/music.mp3";
 import { Howl, Howler } from "howler";
 
 function Aud() {
-  const sound = new Howl({
-    src: Muse,
-  });
-
   useEffect(() => {
+    const sound = new Howl({
+      src: Muse,
+    });
     sound.play();
     Howler.volume(0.5);
   }, []);
