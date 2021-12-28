@@ -24,7 +24,6 @@ function Test2() {
           backgroundSize: "cover",
         }}
       >
-        <h1>HeadGear</h1>
         <OrbitControls />
         <directionalLight intensity={0.5} />
         <ambientLight intensity={0.2} />
