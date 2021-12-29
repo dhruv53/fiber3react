@@ -44,29 +44,29 @@ function Test8Scroll() {
       );
       requestAnimationFrame(() => updateImage(frameIndex + 1));
 
-      if (scrolled >= 0 && scrolled <= 250) {
-        document.getElementById("one").style.color = "rgba(255, 255, 255, 1)";
-      } else {
-        document.getElementById("one").style.color = "rgba(255, 255, 255, 0)";
-      }
+      // if (scrolled >= 0 && scrolled <= 250) {
+      //   document.getElementById("one").style.color = "rgba(255, 255, 255, 1)";
+      // } else {
+      //   document.getElementById("one").style.color = "rgba(255, 255, 255, 0)";
+      // }
 
-      if (scrolled >= 2300 && scrolled <= 2600) {
-        document.getElementById("two").style.color = "rgba(255, 255, 255, 1)";
-      } else {
-        document.getElementById("two").style.color = "rgba(255, 255, 255, 0)";
-      }
+      // if (scrolled >= 2300 && scrolled <= 2600) {
+      //   document.getElementById("two").style.color = "rgba(255, 255, 255, 1)";
+      // } else {
+      //   document.getElementById("two").style.color = "rgba(255, 255, 255, 0)";
+      // }
 
-      if (scrolled >= 3000 && scrolled <= 3300) {
-        document.getElementById("three").style.color = "rgba(255, 255, 255, 1)";
-      } else {
-        document.getElementById("three").style.color = "rgba(255, 255, 255, 0)";
-      }
+      // if (scrolled >= 3000 && scrolled <= 3300) {
+      //   document.getElementById("three").style.color = "rgba(255, 255, 255, 1)";
+      // } else {
+      //   document.getElementById("three").style.color = "rgba(255, 255, 255, 0)";
+      // }
 
-      if (scrolled >= 3700 && scrolled <= 4000) {
-        document.getElementById("four").style.color = "rgba(255, 255, 255, 1)";
-      } else {
-        document.getElementById("four").style.color = "rgba(255, 255, 255, 0)";
-      }
+      // if (scrolled >= 3700 && scrolled <= 4000) {
+      //   document.getElementById("four").style.color = "rgba(255, 255, 255, 1)";
+      // } else {
+      //   document.getElementById("four").style.color = "rgba(255, 255, 255, 0)";
+      // }
 
       // if (scrolled >= 3400 && scrolled <= 3700) {
       //   document.getElementById("five").style.color = "rgba(255, 255, 255, 1)";
@@ -85,7 +85,7 @@ function Test8Scroll() {
   return (
     <>
       <canvas id="hero-lightpass" />
-      <div className="block">
+      {/* <div className="block">
         <p id="one">bA3E</p>
       </div>
       <div className="block" />
@@ -104,7 +104,7 @@ function Test8Scroll() {
         <p className="features" id="four">
           Discover your focus patterns through our trained algorithms
         </p>
-      </div>
+      </div> */}
       {/* <div className="block">
         <p id="five">Get instant feedback on your concentration shift</p>
       </div> */}

@@ -3,7 +3,7 @@ html {
 }
 body {
   height: 1000vh;
-  background-color: white;
+  background-color: black;
 }
 #hero-lightpass {
   position: fixed;
