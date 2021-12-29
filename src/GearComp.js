@@ -138,15 +138,13 @@ export default function Model({ ...props }) {
         rotation={[1.94, 0, 0]}
         scale={[1.6, 1.6, 1.6]}
       />
-      <a.mesh
+      <mesh
         geometry={nodes.cover.geometry}
         material={nodes.cover.material}
         position={[0, -0.02, 0]}
         rotation={[1.94, 0, 0]}
         scale={[1.6, 1.6, 1.6]}
         material-color={snap.items.cvr}
-        position-y={pos}
-        onClick={() => setActive(Number(!active))}
       />
       <mesh
         geometry={nodes.logo.geometry}

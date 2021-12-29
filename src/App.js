@@ -8,8 +8,8 @@ import React from "react";
 // import Test7 from "./Test7";
 // import ReactAudioPlayer from "react-audio-player";
 // import Test9 from "./Test9";
-// import Test8Scroll from "./Test8Scroll";
-import Mod from "./Mod";
+import Test8Scroll from "./Test8Scroll";
+// import Mod from "./Mod";
 import "./style.css";
 function App() {
   return (
@@ -20,13 +20,13 @@ function App() {
       {/* <Brain /> */}
       {/* <Test7 /> */}
       {/* <Test6 /> */}
-      {/* <Test8Scroll /> */}
+      <Test8Scroll />
       {/* <Test5 /> */}
       {/* <Test3 /> */}
       {/* <Test9 /> */}
-      <div style={{ width: "100%", height: "100vh" }}>
+      {/* <div style={{ width: "100%", height: "100vh" }}>
         <Mod />
-      </div>
+      </div> */}
     </>
   );
 }
