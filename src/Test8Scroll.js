@@ -7,9 +7,9 @@ function Test8Scroll() {
     const canvas = document.getElementById("hero-lightpass");
     const context = canvas.getContext("2d");
 
-    const frameCount = 300;
+    const frameCount = 556;
     const currentFrame = (index) =>
-      `./assets/sequence7/${index.toString().padStart(4, "0")}-min.jpg`;
+      `./assets/sequence8/${index.toString().padStart(4, "0")}.jpg`;
 
     const preloadImages = () => {
       for (let i = 1; i < frameCount; i++) {
